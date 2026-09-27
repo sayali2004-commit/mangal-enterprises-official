@@ -30,4 +30,4 @@ html[lang="mr"] body,html[lang="hi"] body{font-family:'DM Sans','Noto Sans Devan
 .lang-menu button:hover{background:#eef2f1}
 .lang-menu button i{font-style:normal;color:var(--blue);opacity:0;font-size:12px}
 .lang-menu button.active i{opacity:1}
-@media(max-width:640px){.nav .menu-toggle{order:-1;margin-left:0;margin-right:12px}.nav .brand{order:0;margin-right:auto}.nav .lang-wrap{order:1}.nav .nav-cta{order:2}.lang-btn{padding:9px 11px;font-size:10px}.lang-menu{right:-6px;min-width:160px}}
+@media(max-width:640px){.nav .menu-toggle{order:-1;margin-left:0;margin-right:12px}.nav .brand{order:0;margin-right:auto}.nav .lang-wrap{order:1;margin-right:8px}.nav .nav-cta{order:2}.lang-btn{padding:9px 11px;font-size:10px}.lang-menu{right:-6px;min-width:160px}}
