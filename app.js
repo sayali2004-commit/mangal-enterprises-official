@@ -19,7 +19,7 @@ const IMAGES={
 'water-cooler':'images/9acd4529033fa368be64870af41a0165.jpg',
 'freezer':'images/daf8048a9288c7336a19c07c19d338f6.jpg',
 'purifier':'images/5065d31d31610476859cabfeb5af2f80.jpg',
-'water-purifier':'images/9acd4529033fa368be64870af41a0165.jpg',
+'water-purifier':'images/5448cd1fa04738faac91ffcc965aac13.jpg',
 'cold-room':'images/d27b8875ce26d374a34118203e1c3bd2.jpg',
 'amc':'images/1fe160d54f539071f70ea9122da5701b.jpg',
 'rental':'images/4def05da8b08aba8bd19e0ae80c21401.jpg',
