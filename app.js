@@ -14,16 +14,16 @@ const products=[
 ];
 /* Real, clean product photography (Unsplash CDN). */
 const IMAGES={
-'split-ac':'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=80',
-'vrf':'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80',
-'water-cooler':'https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=900&q=80',
-'freezer':'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80',
-'purifier':'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80',
-'water-purifier':'https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=900&q=80',
-'cold-room':'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80',
-'amc':'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80',
-'rental':'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=900&q=80',
-'turnkey':'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80'
+'split-ac':'images/1e6c4bc2e3c76a5689f779a9ca8b31d0.jpg',
+'vrf':'images/7f1e78985c35631b90cd9876863c16af.jpg',
+'water-cooler':'images/9acd4529033fa368be64870af41a0165.jpg',
+'freezer':'images/daf8048a9288c7336a19c07c19d338f6.jpg',
+'purifier':'images/5065d31d31610476859cabfeb5af2f80.jpg',
+'water-purifier':'images/9acd4529033fa368be64870af41a0165.jpg',
+'cold-room':'images/d27b8875ce26d374a34118203e1c3bd2.jpg',
+'amc':'images/1fe160d54f539071f70ea9122da5701b.jpg',
+'rental':'images/4def05da8b08aba8bd19e0ae80c21401.jpg',
+'turnkey':'images/dc40385db6985132648f4f833fce5d20.jpg'
 };
 const services=[['01','⌁','AC Installation','Right-sized, neatly installed systems.'],['02','✳','AC Repair','Responsive diagnosis and dependable fixes.'],['03','◷','AC Maintenance','Seasonal tune-ups that catch the small things.'],['04','↻','AC AMC','Planned annual care for peace of mind.'],['05','⌘','VRF / Central AC','Specialist care for complex systems.'],['06','❄','Refrigeration Maintenance','Protecting your cold chain every day.'],['07','▧','Cold Room Solutions','Design, installation and ongoing support.'],['08','⌂','AC Rental','Comfort on terms that work for you.'],['09','◎','Preventive Maintenance','Proactive checks, fewer surprises.'],['10','↗','Turnkey HVAC Projects','From first survey to final handover.']];
 const clients=[['NORTHSTAR','Northstar Hotels'],['AURELIA','Aurelia Healthcare'],['COMMON\nGROUND','Common Ground'],['FIELD &\nFORM','Field & Form'],['MERIDIAN','Meridian Offices'],['THE\nGOOD\nTABLE','The Good Table'],['NORTHSTAR','Northstar Hotels'],['AURELIA','Aurelia Healthcare'],['COMMON\nGROUND','Common Ground'],['FIELD &\nFORM','Field & Form'],['MERIDIAN','Meridian Offices'],['THE\nGOOD\nTABLE','The Good Table']];
