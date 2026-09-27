@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071a33">
+<meta name="description" content="Mangal Enterprises - Request maintenance service for your cooling and HVAC equipment.">
+<title>Mangal Enterprises | Request a Visit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.maint-page{min-height:100vh;display:grid;grid-template-columns:.85fr 1.15fr;gap:9%;align-items:start;padding:112px 9.5% 80px}
+.maint-page .maintenance-copy{position:sticky;top:120px}
+.maint-page .maintenance h2,.maint-page h2{font:500 clamp(48px,6.2vw,82px)/1.02 Manrope,sans-serif;letter-spacing:-.065em;margin:27px 0 23px;color:var(--navy)}
+.maint-page .maintenance-copy>p{max-width:335px;font-size:12px;line-height:1.8;color:#798697;margin:22px 0 34px}
+.maint-page .service-promise{display:flex;gap:14px;padding:16px 0;border-top:1px solid var(--line);max-width:360px}
+.maint-page .service-promise>b{font:italic 13px var(--serif);color:#4f8fa3}
+.maint-page .service-promise span{display:grid;gap:5px}
+.maint-page .service-promise strong{font-size:10px}
+.maint-page .service-promise small{font-size:9px;color:#8793a0}
+.maint-page .maintenance-photo{width:100%;height:210px;object-fit:cover;border-radius:14px;margin-top:22px;display:block}
+.maint-page .form-card{background:white;padding:34px 37px;box-shadow:0 12px 42px #1129440b;position:relative}
+.maint-page .form-heading{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:17px;margin-bottom:21px}
+.maint-page .form-heading h3{font:600 21px Manrope;margin:0}
+.maint-page .form-heading>span{font-size:8px;letter-spacing:.14em;color:#91a0ab}
+.maint-page .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px 13px}
+.maint-page .form-grid>label,.maint-page .form-row label{font-size:9px;color:#657587;display:grid;gap:7px}
+.maint-page .form-grid input,.maint-page .form-grid select,.maint-page .form-grid textarea{width:100%;border:1px solid #e1e6e8;background:#fbfcfb;padding:11px 10px;outline:0;font-size:10px;color:#24374c;border-radius:0}
+.maint-page .form-grid input:focus,.maint-page .form-grid select:focus,.maint-page .form-grid textarea:focus{border-color:#76a9b7}
+.maint-page .form-grid>label:nth-last-child(1),.maint-page .form-grid>label:nth-last-child(2){grid-column:1/-1}
+.maint-page .form-grid .form-row{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.maint-page .form-grid textarea{resize:vertical}
+.maint-page .optional{font-size:7px;color:#9aa7af;margin-left:6px;letter-spacing:.1em}
+.maint-page .submit{width:100%;margin-top:20px}
+.maint-page .form-privacy{font-size:8px;color:#9aa5ad;text-align:center}
+.maint-page .success{background:#eff7f3;border:1px solid #d4e9dc;padding:18px;margin-top:17px;color:#254838}
+.maint-page .success-icon{width:24px;height:24px;border-radius:50%;background:#d2e9dc;display:inline-grid;place-items:center;margin-right:9px}
+.maint-page .success strong{font:600 14px Manrope}
+.maint-page .success p{font-size:10px;line-height:1.6}
+.maint-page .success[hidden]{display:none}
+.maint-page .success .text-link{border:0;background:none;color:#1b6447;cursor:pointer;padding:6px 0}
+@media(max-width:900px){.maint-page{gap:5%;padding-left:7%;padding-right:7%}.maint-page .form-card{padding:28px 25px}}
+@media(max-width:640px){.maint-page{grid-template-columns:1fr;padding:70px 6% 60px;gap:28px}.maint-page .maintenance-copy{position:static}.maint-page h2{font-size:48px}.maint-page .maintenance-copy>p{font-size:11px;margin:16px 0 22px}.maint-page .service-promise{padding:12px 0}.maint-page .form-card{padding:24px 18px}.maint-page .form-heading h3{font-size:18px}.maint-page .form-grid{gap:12px 9px}.maint-page .form-grid input,.maint-page .form-grid select,.maint-page .form-grid textarea{padding:10px 8px;font-size:9px}}
+</style>
+</head>
+<body>
+<div class="topline"><span>Engineered for better air.</span><span>Serving Sangli & businesses across India <b>↗</b></span></div>
+<header class="nav"><a class="brand" href="index.html#home"><span class="brandmark">M<span>·</span></span><span class="brandname">MANGAL <small>ENTERPRISES</small></span></a><button class="menu-toggle" aria-label="Open menu">☰</button><nav><a href="index.html#catalog">Showroom</a><a href="index.html#services">Services</a><a href="clients.html">Our clients</a><a href="maintenance.html" class="active">Maintenance</a><a href="index.html#contact">Contact</a></nav><a class="nav-cta" href="maintenance.html">Request service <span>↗</span></a><div class="lang-wrap notranslate"><button class="lang-btn" id="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Select language"><span class="lang-globe">◉</span><span id="lang-current">EN</span><span class="lang-caret">▾</span></button><div class="lang-menu" id="lang-menu" role="menu"><button data-lang="en" class="active" role="menuitem"><span>English</span><i>✓</i></button><button data-lang="mr" role="menuitem"><span>मराठी</span><i>✓</i></button><button data-lang="hi" role="menuitem"><span>हिन्दी</span><i>✓</i></button></div></div><div id="google_translate_element" class="notranslate" aria-hidden="true"></div></header>
+<main>
+<div class="maint-page">
+<div class="maintenance-copy">
+<div class="eyebrow"> WE'RE HERE WHEN YOU NEED US</div>
+<h2>Let's keep<br>things <em>running.</em></h2>
+<p>Book a maintenance visit and our team will be in touch to find a time that works for you.</p>
+<div class="service-promise"><b>01</b><span><strong>A real person, promptly.</strong><small>We'll confirm your request and coordinate the next step.</small></span></div>
+<div class="service-promise"><b>02</b><span><strong>Care that looks ahead.</strong><small>Preventive support tailored to your equipment.</small></span></div>
+<img class="maintenance-photo" src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=900&q=80" alt="Well-maintained cooling equipment" loading="lazy">
+</div>
+<form class="form-card" id="maintenance-form">
+<div class="form-heading"><h3>Request a visit</h3><span>01 · SERVICE</span></div>
+<div class="form-grid">
+<label>Your name<input name="name" required placeholder="e.g. Ananya Sharma"></label>
+<label>Mobile number<input name="mobile" type="tel" required pattern="[0-9+() -]{8,18}" placeholder="+91 98225 33296"></label>
+<label>Email address<input name="email" type="email" placeholder="you@example.com"></label>
+<label>Equipment<select name="equipment" required><option value="">Select equipment</option><option>Air Conditioner</option><option>Central AC</option><option>VRF</option><option>Water Cooler</option><option>Deep Freezer</option><option>Air Purifier</option><option>Water Purifier</option><option>Cold Room</option><option>Other</option></select></label>
+<label>Maintenance type<select name="type" required><option value="">Choose a service</option><option>Regular Maintenance</option><option>Repair</option><option>AMC Service</option><option>Emergency Service</option><option>Installation</option><option>Inspection</option></select></label>
+<div class="form-row"><label>Preferred date<input type="date" name="date"></label><label>Preferred time<select name="time"><option value="">Any time</option><option>Morning (9 am–12 pm)</option><option>Afternoon (12–4 pm)</option><option>Evening (4–7 pm)</option></select></label></div>
+<label>Location<input name="location" required placeholder="City, area or PIN code"></label>
+<label>Anything else? <span class="optional">OPTIONAL</span><textarea name="notes" rows="2" placeholder="A little about what you need…"></textarea></label>
+</div>
+<button class="button primary submit" type="submit">Request maintenance <span>↗</span></button>
+<p class="form-privacy">Your details are only used to respond to this request.</p>
+<div class="success" role="status" hidden><span class="success-icon">✓</span><strong>Request received.</strong><p>Thank you, our team will be in touch to coordinate your visit.</p><button type="button" class="text-link reset-form">Send another request →</button></div>
+</form>
+</div>
+</main>
+<section class="contact" id="contact"><div class="contact-top"><div><div class="eyebrow light"> ONE GOOD CONVERSATION</div><h2>Let's make your<br>space <em>feel right.</em></h2></div><a class="button cream" id="contact-whatsapp" href="#">Start a conversation <span>↗</span></a></div><div class="contact-bottom"><a class="brand light-brand" href="index.html#home"><span class="brandmark">M<span>·</span></span><span class="brandname">MANGAL <small>ENTERPRISES</small></span></a><div><small>OWNER</small><span>Devdatta Karmarkar</span></div><div><small>CALL US</small><a href="tel:+919822533296">+91 98225 33296</a></div><div><small>WRITE TO US</small><a href="mailto:mangalenterprises19@gmail.com">mangalenterprises19@gmail.com</a></div><div class="contact-address"><small>COME SAY HELLO</small><span>Shop No. 4, Vishnuprasad Apartment,<br>Behind Old Jakat Naka, Vishrambag,<br>Sangli 416 415</span><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Vishnuprasad+Apartment+Behind+Old+Jakat+Naka+Vishrambag+Sangli+416415" target="_blank" rel="noopener">Get directions ↗</a></div></div><footer><span>© 2026 Mangal Enterprises</span><span>Comfort, considered. <b>✳</b></span><a href="index.html#home">BACK TO TOP ↑</a></footer></section>
+<a class="whatsapp-float" id="float-whatsapp" href="#" aria-label="Chat on WhatsApp"><span class="wa-icon">◉</span><span>Let's talk</span><b>↗</b></a>
+<script>
+const CONFIG={whatsapp:'919822533296',phone:'+91 98225 33296',email:'mangalenterprises19@gmail.com'};
+function waUrl(message){return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`}
+document.querySelector('#float-whatsapp').href=waUrl('Hello Mangal Enterprises, I would like to know more about your cooling and refrigeration solutions.');
+const mf=document.querySelector('#maintenance-form');let maintenanceOpening=false;
+mf.addEventListener('submit',e=>{e.preventDefault();if(maintenanceOpening||!mf.reportValidity())return;const data=Object.fromEntries(new FormData(mf));const date=data.date?new Intl.DateTimeFormat(undefined,{day:'numeric',month:'long',year:'numeric'}).format(new Date(`${data.date}T00:00:00`)):'';const time=data.time||'';const notes=data.notes?.trim();const schedule=`I require a ${data.type} service${date?` on ${date}`:''}${time?`${date?',':''} preferably in the ${time}`:''}. The service location is ${data.location}.`;const message=['Hello Mangal Enterprises','','My name is ${data.name}. I would like to request a maintenance service for my ${data.equipment}.','',schedule,'',...(notes?[`Additional information: ${notes}${/[.!?]$/.test(notes)?'':'.'}`,'']:[]),'','Please contact me to confirm the service appointment and further details.','','Thank you.'].join('\n');const url=waUrl(message);maintenanceOpening=true;const submit=mf.querySelector('.submit');submit.disabled=true;const whatsappWindow=window.open(url,'_blank');if(whatsappWindow){whatsappWindow.opener=null;}else{const status=mf.querySelector('.success');status.replaceChildren();const text=document.createElement('p');text.textContent='WhatsApp could not be opened automatically. Use the link below to continue with your prefilled request.';const link=document.createElement('a');link.href=url;link.target='_blank';link.rel='noopener';link.className='text-link';link.textContent='Open WhatsApp ↗';status.append(text,link);status.hidden=false;submit.disabled=false;maintenanceOpening=false}});
+document.querySelectorAll('.reset-form').forEach(b=>b.addEventListener('click',()=>{mf.reset();mf.querySelector('.success').hidden=true;mf.querySelector('.submit').hidden=false;mf.querySelector('.submit').disabled=false;maintenanceOpening=false}));
+const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.nav nav');toggle.addEventListener('click',()=>{let open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',open?'true':'false')});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+</script>
+</body></html>
