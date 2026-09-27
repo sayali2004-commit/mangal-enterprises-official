@@ -31,3 +31,8 @@ html[lang="mr"] body,html[lang="hi"] body{font-family:'DM Sans','Noto Sans Devan
 .lang-menu button i{font-style:normal;color:var(--blue);opacity:0;font-size:12px}
 .lang-menu button.active i{opacity:1}
 @media(max-width:640px){.nav .menu-toggle{order:-1;margin-left:0;margin-right:12px}.nav .brand{order:0;margin-right:auto}.nav .lang-wrap{order:1}.nav .nav-cta{order:2}.lang-btn{padding:9px 11px;font-size:10px}.lang-menu{right:-6px;min-width:160px}}
+/* Maintenance split: info section on top, request form in its own section below */
+.maintenance{grid-template-columns:1fr;padding-bottom:70px}
+.maintenance .maintenance-copy{position:static;max-width:760px}
+.maintenance-form-section{background:#fff;border-top:1px solid var(--line);padding-top:70px;padding-bottom:90px}
+.maintenance-form-section .form-card{max-width:680px;margin:0 auto}
